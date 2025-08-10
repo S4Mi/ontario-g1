@@ -4,19 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 
-// Register PWA
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/ontario-g1/sw.js')
-      .then((registration) => {
-        console.log('SW registered: ', registration)
-      })
-      .catch((registrationError) => {
-        console.log('SW registration failed: ', registrationError)
-      })
-  })
-}
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename="/ontario-g1">
