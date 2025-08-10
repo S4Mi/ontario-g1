@@ -41,6 +41,13 @@ export const quizData = {
       description: 'Learn about vehicle safety checks and maintenance requirements',
       icon: '🔧',
       color: 'bg-indigo-500'
+    },
+    {
+      id: 'demerit-penalties',
+      name: 'Demerit Points & Penalties',
+      description: 'Understand the demerit point system and licence suspension',
+      icon: '⚠️',
+      color: 'bg-red-600'
     }
   ],
 
@@ -100,6 +107,61 @@ export const quizData = {
         ],
         correct: 1,
         explanation: 'A yield sign is a red triangle pointing downward, indicating drivers should slow down and yield to other traffic.'
+      },
+      {
+        question: 'What do double solid yellow lines on the road mean?',
+        options: [
+          'Passing is allowed in both directions',
+          'Passing is not allowed in either direction',
+          'Passing is allowed only from the left',
+          'Passing is allowed only from the right'
+        ],
+        correct: 1,
+        explanation: 'Double solid yellow lines mean no passing is allowed in either direction.'
+      },
+      {
+        question: 'What should you do when you see a pedestrian signal showing a flashing hand?',
+        options: [
+          'Start crossing quickly',
+          'Do not start crossing',
+          'Run across the street',
+          'Ignore the signal'
+        ],
+        correct: 1,
+        explanation: 'A flashing hand means do not start crossing the street.'
+      },
+      {
+        question: 'What does a blue square sign typically indicate?',
+        options: [
+          'Warning of hazards',
+          'Regulatory requirements',
+          'Information about services',
+          'Speed limits'
+        ],
+        correct: 2,
+        explanation: 'Blue square signs provide information about services and facilities.'
+      },
+      {
+        question: 'What should you do when approaching a railway crossing with flashing lights?',
+        options: [
+          'Speed up to get through quickly',
+          'Stop at least 15 metres from the crossing',
+          'Ignore the lights',
+          'Honk your horn'
+        ],
+        correct: 1,
+        explanation: 'Stop at least 15 metres from railway crossings when lights are flashing.'
+      },
+      {
+        question: 'What does a green traffic light mean?',
+        options: [
+          'Stop immediately',
+          'Go, but only if the intersection is clear',
+          'Speed up to get through',
+          'Turn right only'
+        ],
+        correct: 1,
+        explanation: 'A green light means go, but only if the intersection is clear.'
       }
     ],
 
@@ -158,6 +220,61 @@ export const quizData = {
         ],
         correct: 2,
         explanation: 'The speed limit on most highways in Ontario is 100 km/h.'
+      },
+      {
+        question: 'What is the speed limit in school zones during school hours?',
+        options: [
+          '30 km/h',
+          '40 km/h',
+          '50 km/h',
+          '60 km/h'
+        ],
+        correct: 0,
+        explanation: 'The speed limit in school zones during school hours is 30 km/h.'
+      },
+      {
+        question: 'What is the speed limit on rural roads?',
+        options: [
+          '60 km/h',
+          '70 km/h',
+          '80 km/h',
+          '90 km/h'
+        ],
+        correct: 2,
+        explanation: 'The speed limit on rural roads is 80 km/h unless otherwise posted.'
+      },
+      {
+        question: 'Who has the right of way at an uncontrolled intersection?',
+        options: [
+          'The vehicle on the left',
+          'The vehicle on the right',
+          'The larger vehicle',
+          'The faster vehicle'
+        ],
+        correct: 1,
+        explanation: 'At an uncontrolled intersection, the vehicle on the right has the right of way.'
+      },
+      {
+        question: 'What should you do when approaching a yield sign?',
+        options: [
+          'Stop completely',
+          'Slow down and yield to other traffic',
+          'Speed up to get through',
+          'Honk your horn'
+        ],
+        correct: 1,
+        explanation: 'At a yield sign, you must slow down and yield to other traffic.'
+      },
+      {
+        question: 'What should you do when making a left turn at an intersection?',
+        options: [
+          'Yield to oncoming traffic',
+          'Speed up to beat oncoming traffic',
+          'Ignore oncoming traffic',
+          'Honk at oncoming traffic'
+        ],
+        correct: 0,
+        explanation: 'When making a left turn, you must yield to oncoming traffic.'
       }
     ],
 
@@ -216,6 +333,61 @@ export const quizData = {
         ],
         correct: 1,
         explanation: 'First, check for injuries and call emergency services if needed. Then move vehicles if safe to do so.'
+      },
+      {
+        question: 'What should you do when driving in heavy rain?',
+        options: [
+          'Speed up to get through quickly',
+          'Reduce speed and increase following distance',
+          'Use high beam headlights',
+          'Ignore the weather'
+        ],
+        correct: 1,
+        explanation: 'In heavy rain, reduce speed and increase following distance.'
+      },
+      {
+        question: 'What should you do when driving in fog?',
+        options: [
+          'Use high beam headlights',
+          'Slow down and use low beam headlights',
+          'Speed up to get through quickly',
+          'Ignore the fog'
+        ],
+        correct: 1,
+        explanation: 'In fog, slow down and use low beam headlights.'
+      },
+      {
+        question: 'What should you do when driving on snow or ice?',
+        options: [
+          'Speed up to get through quickly',
+          'Reduce speed significantly and accelerate/brake gently',
+          'Use cruise control',
+          'Ignore the conditions'
+        ],
+        correct: 1,
+        explanation: 'On snow or ice, reduce speed significantly and accelerate/brake gently.'
+      },
+      {
+        question: 'What should you do when driving in strong winds?',
+        options: [
+          'Speed up to get through quickly',
+          'Reduce speed and maintain firm grip on steering wheel',
+          'Use cruise control',
+          'Ignore the wind'
+        ],
+        correct: 1,
+        explanation: 'In strong winds, reduce speed and maintain a firm grip on the steering wheel.'
+      },
+      {
+        question: 'What should you do when approaching a construction zone?',
+        options: [
+          'Speed up to get through quickly',
+          'Reduce speed and watch for workers and equipment',
+          'Ignore the signs',
+          'Honk your horn'
+        ],
+        correct: 1,
+        explanation: 'In construction zones, reduce speed and watch for workers and equipment.'
       }
     ],
 
@@ -390,6 +562,119 @@ export const quizData = {
         ],
         correct: 1,
         explanation: 'Replace windshield wiper blades at least once a year or when they show signs of wear or poor performance.'
+      }
+    ],
+    
+    'demerit-penalties': [
+      {
+        question: 'How many demerit points do you get for speeding 16-29 km/h over the limit?',
+        options: [
+          '1 point',
+          '2 points',
+          '3 points',
+          '4 points'
+        ],
+        correct: 2,
+        explanation: 'Speeding 16-29 km/h over the limit results in 3 demerit points.'
+      },
+      {
+        question: 'How many demerit points do you get for running a red light?',
+        options: [
+          '2 points',
+          '3 points',
+          '4 points',
+          '6 points'
+        ],
+        correct: 1,
+        explanation: 'Running a red light results in 3 demerit points.'
+      },
+      {
+        question: 'How many demerit points do you get for careless driving?',
+        options: [
+          '3 points',
+          '4 points',
+          '6 points',
+          '8 points'
+        ],
+        correct: 2,
+        explanation: 'Careless driving results in 6 demerit points.'
+      },
+      {
+        question: 'At what point level do G1/G2 drivers get a 60-day suspension?',
+        options: [
+          '6 points',
+          '9 points',
+          '12 points',
+          '15 points'
+        ],
+        correct: 1,
+        explanation: 'G1/G2 drivers get a 60-day suspension at 9 demerit points.'
+      },
+      {
+        question: 'At what point level do full G licence drivers get a 30-day suspension?',
+        options: [
+          '12 points',
+          '15 points',
+          '18 points',
+          '20 points'
+        ],
+        correct: 1,
+        explanation: 'Full G licence drivers get a 30-day suspension at 15 demerit points.'
+      },
+      {
+        question: 'How long do demerit points stay on your record?',
+        options: [
+          '1 year',
+          '2 years',
+          '3 years',
+          '5 years'
+        ],
+        correct: 1,
+        explanation: 'Demerit points stay on your record for 2 years from the conviction date.'
+      },
+      {
+        question: 'What happens if you accumulate 30 demerit points with a full G licence?',
+        options: [
+          'Warning letter',
+          '30-day suspension',
+          '90-day suspension',
+          'Licence cancellation'
+        ],
+        correct: 2,
+        explanation: 'Full G licence drivers get a 90-day suspension at 30 demerit points.'
+      },
+      {
+        question: 'How many demerit points do you get for following too closely?',
+        options: [
+          '2 points',
+          '3 points',
+          '4 points',
+          '6 points'
+        ],
+        correct: 2,
+        explanation: 'Following too closely results in 4 demerit points.'
+      },
+      {
+        question: 'What is the reinstatement fee after a licence suspension?',
+        options: [
+          '$50',
+          '$100',
+          '$150',
+          '$200'
+        ],
+        correct: 2,
+        explanation: 'The reinstatement fee after a licence suspension is $150.'
+      },
+      {
+        question: 'What can happen if you drive while your licence is suspended?',
+        options: [
+          'Warning only',
+          'Fine only',
+          'Extended suspension and possible jail time',
+          'Nothing additional'
+        ],
+        correct: 2,
+        explanation: 'Driving while suspended can result in extended suspension and possible jail time.'
       }
     ]
   }
