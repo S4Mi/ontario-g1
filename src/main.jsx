@@ -7,7 +7,7 @@ import './index.css'
 // Register PWA
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/ontario-g1/sw.js')
       .then((registration) => {
         console.log('SW registered: ', registration)
       })
@@ -19,7 +19,7 @@ if ('serviceWorker' in navigator) {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ontario-g1">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/ontario-g1/',
   plugins: [
     react(),
     VitePWA({
@@ -21,11 +22,11 @@ export default defineConfig({
         background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: '/ontario-g1/',
+        start_url: '/ontario-g1/',
         icons: [
           {
-            src: 'icon.svg',
+            src: '/ontario-g1/icon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable'
