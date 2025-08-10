@@ -2,7 +2,7 @@
   "name": "ontario-g1-study-app",
   "version": "1.0.0",
   "description": "A comprehensive PWA for studying Ontario G1 driving test with offline support",
-  "homepage": "https://YOUR_USERNAME.github.io/G1",
+  "homepage": "https://S4Mi.github.io/ontario-g1",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
